@@ -12,6 +12,13 @@
 		3143ADA31F60DD670050704E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADA11F60DD670050704E /* Main.storyboard */; };
 		3143ADA51F60DD670050704E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADA41F60DD670050704E /* Assets.xcassets */; };
 		3143ADA81F60DD670050704E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADA61F60DD670050704E /* LaunchScreen.storyboard */; };
+		3143ADB21F60E2210050704E /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143ADB01F60E2210050704E /* FirstTableViewCell.swift */; };
+		3143ADB31F60E2210050704E /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADB11F60E2210050704E /* FirstTableViewCell.xib */; };
+		3143ADB61F60E2F10050704E /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143ADB41F60E2F10050704E /* SecondTableViewCell.swift */; };
+		3143ADB71F60E2F10050704E /* SecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADB51F60E2F10050704E /* SecondTableViewCell.xib */; };
+		3143ADBA1F60E34B0050704E /* ThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143ADB81F60E34B0050704E /* ThirdTableViewCell.swift */; };
+		3143ADBB1F60E34B0050704E /* ThirdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3143ADB91F60E34B0050704E /* ThirdTableViewCell.xib */; };
+		3143ADBD1F60E8990050704E /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143ADBC1F60E8990050704E /* NSObjectExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		3143ADA41F60DD670050704E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3143ADA71F60DD670050704E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3143ADA91F60DD670050704E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3143ADB01F60E2210050704E /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		3143ADB11F60E2210050704E /* FirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTableViewCell.xib; sourceTree = "<group>"; };
+		3143ADB41F60E2F10050704E /* SecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		3143ADB51F60E2F10050704E /* SecondTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondTableViewCell.xib; sourceTree = "<group>"; };
+		3143ADB81F60E34B0050704E /* ThirdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTableViewCell.swift; sourceTree = "<group>"; };
+		3143ADB91F60E34B0050704E /* ThirdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdTableViewCell.xib; sourceTree = "<group>"; };
+		3143ADBC1F60E8990050704E /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,29 @@
 		3143AD9C1F60DD670050704E /* CustomTableView */ = {
 			isa = PBXGroup;
 			children = (
+				3143ADAF1F60DE0D0050704E /* Xib */,
 				3143AD9D1F60DD670050704E /* AppDelegate.swift */,
 				3143AD9F1F60DD670050704E /* ViewController.swift */,
 				3143ADA11F60DD670050704E /* Main.storyboard */,
 				3143ADA41F60DD670050704E /* Assets.xcassets */,
 				3143ADA61F60DD670050704E /* LaunchScreen.storyboard */,
 				3143ADA91F60DD670050704E /* Info.plist */,
+				3143ADBC1F60E8990050704E /* NSObjectExtension.swift */,
 			);
 			path = CustomTableView;
+			sourceTree = "<group>";
+		};
+		3143ADAF1F60DE0D0050704E /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				3143ADB01F60E2210050704E /* FirstTableViewCell.swift */,
+				3143ADB11F60E2210050704E /* FirstTableViewCell.xib */,
+				3143ADB41F60E2F10050704E /* SecondTableViewCell.swift */,
+				3143ADB51F60E2F10050704E /* SecondTableViewCell.xib */,
+				3143ADB81F60E34B0050704E /* ThirdTableViewCell.swift */,
+				3143ADB91F60E34B0050704E /* ThirdTableViewCell.xib */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +155,10 @@
 			files = (
 				3143ADA81F60DD670050704E /* LaunchScreen.storyboard in Resources */,
 				3143ADA51F60DD670050704E /* Assets.xcassets in Resources */,
+				3143ADB71F60E2F10050704E /* SecondTableViewCell.xib in Resources */,
+				3143ADB31F60E2210050704E /* FirstTableViewCell.xib in Resources */,
 				3143ADA31F60DD670050704E /* Main.storyboard in Resources */,
+				3143ADBB1F60E34B0050704E /* ThirdTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3143ADB21F60E2210050704E /* FirstTableViewCell.swift in Sources */,
+				3143ADBD1F60E8990050704E /* NSObjectExtension.swift in Sources */,
 				3143ADA01F60DD670050704E /* ViewController.swift in Sources */,
+				3143ADBA1F60E34B0050704E /* ThirdTableViewCell.swift in Sources */,
 				3143AD9E1F60DD670050704E /* AppDelegate.swift in Sources */,
+				3143ADB61F60E2F10050704E /* SecondTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
