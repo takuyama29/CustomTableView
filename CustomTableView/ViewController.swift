@@ -21,7 +21,6 @@ class ViewController: UIViewController, UITableViewDelegate {
         
         // Make cell height variable
         self.tableView.estimatedRowHeight = 100
-        self.tableView.rowHeight = UITableViewAutomaticDimension
         
         self.tableView.delegate = self
         self.tableView.dataSource = self
