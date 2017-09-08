@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //cell毎に高さを可変にできるようにする処理
+        // Make cell height variable
         self.tableView.estimatedRowHeight = 100
         self.tableView.rowHeight = UITableViewAutomaticDimension
         
@@ -107,6 +107,11 @@ extension ViewController: UITableViewDataSource {
             tableView.deleteRows(at: [indexPath], with: .fade)
             
         }
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        // Erase header cells
+        return .leastNormalMagnitude
     }
 
 }
