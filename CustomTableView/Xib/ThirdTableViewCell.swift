@@ -12,7 +12,9 @@ class ThirdTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        // Erase border
+        separatorInset = UIEdgeInsets(top: 0, left: bounds.width, bottom: 0, right: 0)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
